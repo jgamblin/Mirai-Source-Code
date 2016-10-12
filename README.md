@@ -29,14 +29,15 @@ modified build.sh to download go packages
 
 
 steps to setup build environment
-git pull
-vagrant up
-vagrant ssh
-cd /vagrant/mirai
-./build.sh
+ - git pull
+ - vagrant up
+ - vagrant ssh
+ - cd /vagrant/mirai
+ - ./build.sh
 
 Steps to create database
 cat Configure_CNC_Database.txt | mysql -u root --password=password
 
 Start the CnC
+make a prompt file in ./release
 

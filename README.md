@@ -1,3 +1,19 @@
-# Mirai Botnet Client, Echo Loader and CNC source code
+# Mirai BotNet
+Leaked Linux.Mirai Source Code for Research/IoT Development Purposes
 
-This is the source code released from [here](http://hackforums.net/showthread.php?tid=5420472) as discussed in this [Brian Krebs Post](https://krebsonsecurity.com/2016/10/source-code-for-iot-botnet-mirai-released/).
+Uploaded for research purposes and so we can develop IoT and such.
+
+See "ForumPost.txt" for the post in which it leaks, if you want to know how it is all set up and the likes.
+
+## Requirements
+* gcc
+* golang
+* electric-fence
+* mysql-server
+* mysql-client
+
+## Credits
+[Anna-senpai](https://hackforums.net/showthread.php?tid=5420472)
+
+## Disclaimer
+This repository is for academic purposes, the use of this software is your responsibility.

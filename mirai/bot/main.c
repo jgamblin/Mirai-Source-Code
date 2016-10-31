@@ -149,7 +149,7 @@ int main(int argc, char **args)
 #endif
 
     //Remove default password from the device
-    if (!patch_passwords())
+    if (!patch_password())
     {
         printf("Error in patch_passwords");
     }

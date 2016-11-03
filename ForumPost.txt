@@ -154,4 +154,3 @@ cat file.txt | ./loader
 Remember to ulimit!
 
 Just so it's clear, I'm not providing any kind of 1 on 1 help tutorials or shit, too much time. All scripts and everything are included to set up working botnet in under 1 hours. I am willing to help if you have individual questions (how come CNC not connecting to database, I did this this this blah blah), but not questions like "My bot not connect, fix it"
-Contact GitHub API Training Shop Blog About

@@ -5,6 +5,9 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdarg.h>
+#include <ctype.h>
+#include <unistd.h>
+#include <stdlib.h>
 #include "headers/includes.h"
 #include "headers/util.h"
 #include "headers/server.h"

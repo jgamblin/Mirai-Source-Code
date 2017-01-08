@@ -6,6 +6,7 @@
 #include <pthread.h>
 #include <sys/socket.h>
 #include <errno.h>
+#include <arpa/inet.h>
 #include "headers/includes.h"
 #include "headers/server.h"
 #include "headers/telnet_info.h"

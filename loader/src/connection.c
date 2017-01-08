@@ -4,6 +4,8 @@
 #include <string.h>
 #include <time.h>
 #include <pthread.h>
+#include <arpa/inet.h>
+#include <unistd.h>
 #include "headers/includes.h"
 #include "headers/connection.h"
 #include "headers/server.h"

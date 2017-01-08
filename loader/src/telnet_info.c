@@ -2,6 +2,7 @@
 #include <stdint.h>
 #include <stdlib.h>
 #include <string.h>
+#include <arpa/inet.h>
 #include "headers/includes.h"
 #include "headers/telnet_info.h"
 

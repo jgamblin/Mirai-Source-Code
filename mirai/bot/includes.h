@@ -56,11 +56,11 @@ static void xvprintf(const char *fmt, va_list arp)
 	for (;;) {
 		c = *fmt++;					/* Get a char */
 		if (!c) break;				/* End of format? */
-		if (c != '%') {				/* Pass through it if not a % sequense */
+		if (c != '%') {				/* Pass through it if not a % sequence */
 			xputc(c); continue;
 		}
 		f = 0;
-		c = *fmt++;					/* Get first char of the sequense */
+		c = *fmt++;					/* Get first char of the sequence */
 		if (c == '0') {				/* Flag: '0' padded */
 			f = 1; c = *fmt++;
 		} else {

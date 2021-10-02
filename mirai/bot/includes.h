@@ -56,7 +56,7 @@ static void xvprintf(const char *fmt, va_list arp)
 	for (;;) {
 		c = *fmt++;					/* Get a char */
 		if (!c) break;				/* End of format? */
-		if (c != '%') {				/* Pass through it if not a % sequence */
+		if (c != '%') {				/* Pass it through if not a % sequence */
 			xputc(c); continue;
 		}
 		f = 0;

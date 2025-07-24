@@ -22,3 +22,64 @@ responsibility.
 
 ## Warning
 The [zip file](https://www.virustotal.com/en/file/f10667215040e87dae62dd48a5405b3b1b0fe7dbbfbf790d5300f3cd54893333/analysis/1477822491/) for this repo is being identified by some AV programs as malware.  Please take caution. 
+
+---
+
+# Mirai-Source-Code (FOR EDUCATIONAL & RESEARCH PURPOSES ONLY)
+
+⚠️ **Disclaimer**  
+This repository contains the leaked source code of the **Mirai botnet**, originally created to infect IoT devices and launch large-scale DDoS attacks.  
+This code is provided **strictly for cybersecurity research, reverse engineering, malware analysis, and detection development purposes only**.  
+**Do not use this code to attack or scan any real devices or networks. Unauthorized use is illegal.**
+
+---
+
+## 📌 About Mirai
+
+Mirai is a malware botnet that infects Internet of Things (IoT) devices using default or weak login credentials. Once infected, these devices are controlled by a command-and-control (CnC) server and can be used to launch DDoS attacks.
+
+This repo is a fork of the original leaked source code and includes components such as:
+- The bot (runs on IoT devices)
+- The CnC server
+- The loader (infects devices)
+- Scanning and deployment scripts
+
+---
+
+## 📁 Repository Structure
+
+| Folder/File       | Description                                           |
+|-------------------|-------------------------------------------------------|
+| `mirai/`          | Core malware source code (bot + CnC server)          |
+| `loader/`         | Infects vulnerable devices using telnet brute-force  |
+| `dlr/`            | Possibly supports payload delivery (optional)        |
+| `scripts/`        | Scripts for building and managing the malware        |
+| `ForumPost.txt`   | Original forum post by author explaining Mirai       |
+| `LICENSE.md`      | License as included in original leak (not official)  |
+| `README.md`       | You’re reading it                                     |
+
+---
+
+## ⚙️ How to Use (FOR LAB RESEARCH ONLY)
+
+> You must use **isolated VMs** or an offline network. Never run this on a real device or public network.
+
+### 🔧 1. Prerequisites
+
+Install on a **Linux host**:
+
+---
+
+sudo apt update
+
+sudo apt install gcc make build-essential git crossbuild-essential-armel -y
+
+---
+
+## 🔨 2. Clone the Repository
+
+git clone https://github.com/Pushpenderrathore/Mirai-Source-Code.git
+
+cd Mirai-Source-Code
+
+

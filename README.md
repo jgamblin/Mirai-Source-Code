@@ -1,36 +1,43 @@
-# Mirai BotNet
-Leaked Linux.Mirai Source Code for Research/IoT Development Purposes
-
-Uploaded for research purposes and so we can develop IoT and such.
-
-See "ForumPost.txt" or [ForumPost.md](ForumPost.md) for the post in which it
-leaks, if you want to know how it is all set up and the likes.
-
-## Requirements
-* gcc
-* golang
-* electric-fence
-* mysql-server
-* mysql-client
-
-## Credits
-[Anna-senpai](https://hackforums.net/showthread.php?tid=5420472)
-
-## Disclaimer
-This repository is for academic purposes, the use of this software is your
-responsibility.
-
-## Warning
-The [zip file](https://www.virustotal.com/en/file/f10667215040e87dae62dd48a5405b3b1b0fe7dbbfbf790d5300f3cd54893333/analysis/1477822491/) for this repo is being identified by some AV programs as malware.  Please take caution. 
+# Mirai Source Code (FOR EDUCATIONAL & RESEARCH| `README.md`       | You're reading it                                     |
 
 ---
 
-# Mirai-Source-Code (FOR EDUCATIONAL & RESEARCH PURPOSES ONLY)
+## 🔧 Requirements
 
-⚠️ **Disclaimer**  
-This repository contains the leaked source code of the **Mirai botnet**, originally created to infect IoT devices and launch large-scale DDoS attacks.  
-This code is provided **strictly for cybersecurity research, reverse engineering, malware analysis, and detection development purposes only**.  
-**Do not use this code to attack or scan any real devices or networks. Unauthorized use is illegal.**
+Before building and running this code, ensure you have the following installed on a **Linux host**:
+
+- `gcc` - GNU Compiler Collection
+- `golang` - Go programming language
+- `electric-fence` - Memory debugging library
+- `mysql-server` - MySQL database server
+- `mysql-client` - MySQL database client
+- `build-essential` - Essential build tools
+- `crossbuild-essential-armel` - Cross-compilation tools for ARM
+
+**Additional Resources:**
+- For detailed setup instructions and background information, refer to the original leak post in `ForumPost.txt` or view the formatted version at [ForumPost.md](ForumPost.md).
+
+
+⚠️ **CRITICAL DISCLAIMER**  
+This repository contains the leaked source code of the **Mirai botnet**, originally created to infect IoT devices and launch large-scale DDoS attacks. This code is provided **strictly for cybersecurity research, reverse engineering, malware analysis, and detection development purposes only**.
+
+**⚠️ WARNING: Do not use this code to attack or scan any real devices or networks. Unauthorized use is illegal and violates GitHub policy.**
+
+**🛡️ SECURITY NOTICE:** The [zip file](https://www.virustotal.com/en/file/f10667215040e87dae62dd48a5405b3b1b0fe7dbbfbf790d5300f3cd54893333/analysis/1477822491/) for this repo is being identified by some AV programs as malware. Please take caution.
+
+---
+
+## 📋 Table of Contents
+
+- [About Mirai](#-about-mirai)
+- [Repository Structure](#-repository-structure)
+- [Requirements](#-requirements)
+- [How to Use (Lab Research Only)](#️-how-to-use-for-lab-research-only)
+- [Learning Use Cases](#-learning-use-cases)
+- [Do NOT Use For](#-do-not-use-for)
+- [References](#-references)
+- [Credits](#-credits)
+- [Acknowledgments](#-acknowledgments)
 
 ---
 
@@ -68,23 +75,23 @@ This repo is a fork of the original leaked source code and includes components s
 
 Install on a **Linux host**:
 
----
-
+```bash
 sudo apt update
-
 sudo apt install gcc make build-essential git crossbuild-essential-armel -y
-
----
+```
 
 ## 🔨 2. Clone the Repository
 
-git clone https://github.com/Pushpenderrathore/Mirai-Source-Code.git
-
+```bash
+git clone https://github.com/jgamblin/Mirai-Source-Code.git
 cd Mirai-Source-Code
+```
 
 ## 🔨 3. Build the Bot and CnC
 
+```bash
 ./build.sh
+```
 
 This will:
 
@@ -138,15 +145,16 @@ Any such use is illegal and against GitHub policy.
 
 ## 📚 References
 
-* Original Leak on Hackforums (2016)
+* [Original Leak on Hackforums (2016)](https://hackforums.net/showthread.php?tid=5420472)
+* [DDoS Analysis of Mirai by MalwareMustDie](https://blog.malwaremustdie.org/2016/10/mmd-0056-2016-new-mirai-elf-botnet.html)
+* [US-CERT Alert TA16-288A](https://www.cisa.gov/news-events/alerts/2016/10/14/alert-ta16-288a)
 
-* DDoS Analysis of Mirai by MalwareMustDie
+## 👨‍💻 Credits
 
-* US-CERT Alert TA16-288A
+**Original Author:** [Anna-senpai](https://hackforums.net/showthread.php?tid=5420472) - Original Mirai botnet source code leak (2016)  
+*Note: The original forum appears to be inactive as of now.*
 
-## 👨‍💻 Maintainer
+## 🙏 Acknowledgments
 
-Forked and maintained for educational purposes by Pushpenderrathore
-
-GitHub: Pushpenderrathore
+Special thanks to [Pushpenderrathore](https://github.com/Pushpenderrathore) for the improved README structure and comprehensive documentation that makes this educational resource more accessible for cybersecurity research.
 

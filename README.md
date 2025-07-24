@@ -126,4 +126,27 @@ You can use this source code to:
 
 *  Study CnC-to-bot protocol and build simulators
 
-## 
+## ❌ Do NOT Use For
+
+*  Scanning or infecting real IoT devices
+
+*  DDoS attacks
+
+*  Deploying the bot to the public internet
+
+Any such use is illegal and against GitHub policy. 
+
+## 📚 References
+
+* Original Leak on Hackforums (2016)
+
+* DDoS Analysis of Mirai by MalwareMustDie
+
+* US-CERT Alert TA16-288A
+
+## 👨‍💻 Maintainer
+
+Forked and maintained for educational purposes by Pushpenderrathore
+
+GitHub: Pushpenderrathore
+

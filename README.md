@@ -1,5 +1,4 @@
-# Mirai Source Code (FOR EDUCATIONAL & RESEARCH| `README.md`       | You're reading it                                     |
-
+# Mirai Source Code (FOR EDUCATIONAL & RESEARCH
 ---
 
 ## 🔧 Requirements

@@ -140,7 +140,7 @@ You can use this source code to:
 
 *  Deploying the bot to the public internet
 
-> Any such use is illegal and against GitHub policy. 
+> Any Such Use Is Illegal and Against GitHub Policy. 
 
 # References
 

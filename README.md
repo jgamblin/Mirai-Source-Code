@@ -1,4 +1,4 @@
-# Mirai Source Code (FOR EDUCATIONAL & RESEARCH| `README.md`       | You're reading it                                     |
+# Mirai Source Code (FOR EDUCATIONAL & RESEARCH| `README.md`       | You're Reading It                                     |
 
 
 # Table of Contents
@@ -68,7 +68,7 @@ Before building and running this code, ensure you have the following installed o
 
 # How to Use (FOR LAB RESEARCH ONLY)
 
-> You must use **isolated VMs** or an offline network. Never run this on a real device or public network.
+>  <span style="color:red"><b> ⚠️You must use **isolated VMs** or an offline network. Never run this on a real device or public network. </b></span>
 
 ## 1. Prerequisites
 
@@ -140,7 +140,7 @@ You can use this source code to:
 
 *  Deploying the bot to the public internet
 
-> Any Such Use Is Illegal and Against GitHub Policy. 
+ >   <span style="color:red"><b>⚠️ Any Such Use Is Illegal and Against GitHub Policy.</b></span>
 
 # References
 

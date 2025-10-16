@@ -3,15 +3,15 @@
 
 # Table of Contents
 
-- [About Mirai](#-about-mirai)
-- [Repository Structure](#-repository-structure)
+- [About Mirai](#about-mirai)
+- [Repository Structure](#repository-structure)
 - [Requirements](#-requirements)
-- [How To Use (Lab Research Only)](#️-how-to-use-for-lab-research-only)
-- [Learning Use Cases](#-learning-use-cases)
+- [How To Use (Lab Research Only)](#how-to-use-for-lab-research-only)
+- [Learning Use Cases](#learning-use-cases)
 - [Do NOT Use For](#Implications-Not-To-Use-For)
-- [References](#-references)
-- [Credits](#-credits)
-- [Acknowledgments](#-acknowledgments)
+- [References](#references)
+- [Credits](#credits)
+- [Acknowledgments](#acknowledgments)
 
 
 ⚠️ **CRITICAL DISCLAIMER**  

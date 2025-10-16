@@ -5,7 +5,7 @@
 
 - [About Mirai](#about-mirai)
 - [Repository Structure](#repository-structure)
-- [Requirements](#-requirements)
+- [Requirements](#requirements)
 - [How To Use (Lab Research Only)](#how-to-use-for-lab-research-only)
 - [Learning Use Cases](#learning-use-cases)
 - [Do NOT Use For](#Implications-Not-To-Use-For)

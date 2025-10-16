@@ -2,6 +2,20 @@
 
 ---
 
+## 📋 Table of Contents
+
+- [About Mirai](#-about-mirai)
+- [Repository Structure](#-repository-structure)
+- [Requirements](#-requirements)
+- [How to Use (Lab Research Only)](#️-how-to-use-for-lab-research-only)
+- [Learning Use Cases](#-learning-use-cases)
+- [Do NOT Use For](#-do-not-use-for)
+- [References](#-references)
+- [Credits](#-credits)
+- [Acknowledgments](#-acknowledgments)
+
+---
+
 ## 🔧 Requirements
 
 Before building and running this code, ensure you have the following installed on a **Linux host**:
@@ -24,20 +38,6 @@ This repository contains the leaked source code of the **Mirai botnet**, origina
 **⚠️ WARNING: Do not use this code to attack or scan any real devices or networks. Unauthorized use is illegal and violates GitHub policy.**
 
 **🛡️ SECURITY NOTICE:** The [zip file](https://www.virustotal.com/en/file/f10667215040e87dae62dd48a5405b3b1b0fe7dbbfbf790d5300f3cd54893333/analysis/1477822491/) for this repo is being identified by some AV programs as malware. Please take caution.
-
----
-
-## 📋 Table of Contents
-
-- [About Mirai](#-about-mirai)
-- [Repository Structure](#-repository-structure)
-- [Requirements](#-requirements)
-- [How to Use (Lab Research Only)](#️-how-to-use-for-lab-research-only)
-- [Learning Use Cases](#-learning-use-cases)
-- [Do NOT Use For](#-do-not-use-for)
-- [References](#-references)
-- [Credits](#-credits)
-- [Acknowledgments](#-acknowledgments)
 
 ---
 

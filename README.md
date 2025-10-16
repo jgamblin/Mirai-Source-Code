@@ -1,4 +1,4 @@
-# Mirai Source Code (FOR EDUCATIONAL & RESEARCH
+# Mirai Source Code (FOR EDUCATION & RESEARCH)
 ---
 
 ## 🔧 Requirements

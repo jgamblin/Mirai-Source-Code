@@ -8,7 +8,7 @@
 - [Requirements](#requirements)
 - [How To Use (Lab Research Only)](#how-to-use-for-lab-research-only)
 - [Learning Use Cases](#learning-use-cases)
-- [Do NOT Use For](#Implications-Not-To-Use-For)
+- [Implications Not Use For](#Implications-Not-To-Use-For)
 - [References](#references)
 - [Credits](#credits)
 - [Acknowledgments](#acknowledgments)

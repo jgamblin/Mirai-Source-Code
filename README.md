@@ -155,5 +155,5 @@ You can use this source code to:
 
 # Acknowledgments
 
-Special Thanks To [Jerry Gamblin](https://github.com/jgamblin) ,[Sam Gleske](https://github.com/samrocketman), [谢致邦 XIE Zhibang](https://github.com/Red54) , [Peter K. Shultz ](https://github.com/pkshultz), [BenjaminHCCarr](https://github.com/BenjaminHCCarr) , [Pushpenderrathore](https://github.com/Pushpenderrathore) For The Improved Project Structure and Comprehensive Documentation That Makes This Educational Resource More Accessible For Cybersecurity Research.
+Special Thanks To [Sam Gleske](https://github.com/samrocketman), [谢致邦 XIE Zhibang](https://github.com/Red54) , [Peter K. Shultz ](https://github.com/pkshultz), [BenjaminHCCarr](https://github.com/BenjaminHCCarr) , [Pushpenderrathore](https://github.com/Pushpenderrathore) For The Improved Project Structure and Comprehensive Documentation That Makes This Educational Resource More Accessible For Cybersecurity Research.
 
